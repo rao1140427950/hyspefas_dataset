@@ -1,4 +1,4 @@
-# Codes for "Map Optical Properties to Sub-wavelength Structures Directly via a Diffusion Model"
+# Codes for "HySpeFAS: A Multimodal Snapshot Hyperspectral Image Dataset for Face Anti-spoofing"
 
 ## Requirements:
 ```requirements.txt
