@@ -19,16 +19,22 @@ This repository provides the baseline methods and models proposed in our paper.
 - The HySpeFAS dataset should be downloaded and put in the _data_ folder. 
 - The _fas_models_ folder provides all the tested baseline models in the paper.
 - The _reconstruction_ folder contains the codes for reconstructing HSIs from SSIs and the sensing matrix using convex optimization.
-- The download link for the HySpeFAS dataset will be available at the time of submitting the camera ready paper.
+
+## Dataset Downloading
+- The dataset can be accessed thourgh [Google drive](https://drive.google.com/drive/folders/1ykd0iKoYSfy1Vf72h09guljsWqeWnCrs?usp=sharing)
+or [Baidu drive](https://pan.baidu.com/s/1650Q9GBrMc-nNOsak7H--Q?pwd=68hx)
+- Please sign and send the agreement according to the instructions and then get the unzip password.
+- Download the full dataset and unzip the files.
 
 ## Usage
+
 ### Preparation
 - Install the requirements.
-- Download the HySpeFAS dataset from the download link (will be available at the time of submitting the camera ready paper).
+- Download the HySpeFAS dataset from the download link.
 - Unzip the dataset files and put them in the _data_ directory.
+- Check if the dataset path in the code matches the actual data directory.
 - (Optional) Run the script _reconstruction/reconstruct_images.m_ to get the reconstructed HSIs (R-HSIs). This is essential 
 to train models based on R-HSIs such as TwIST-ResNet.
-
 
 ### Baselines for Track 1:
 For training SMN-ResNet, run the following command:
