@@ -21,6 +21,7 @@ This repository provides the baseline methods and models proposed in our paper.
 - The _reconstruction_ folder contains the codes for reconstructing HSIs from SSIs and the sensing matrix using convex optimization.
 
 ## Dataset Downloading
+- The dataset is under CC BY-NC-ND 4.0 license.
 - The dataset can be accessed thourgh [Google drive](https://drive.google.com/drive/folders/1ykd0iKoYSfy1Vf72h09guljsWqeWnCrs?usp=sharing)
 or [Baidu drive](https://pan.baidu.com/s/1650Q9GBrMc-nNOsak7H--Q?pwd=68hx)
 - Please sign and send the agreement according to the instructions and then get the unzip password.
