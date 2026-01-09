@@ -22,8 +22,8 @@ This repository provides the baseline methods and models proposed in our paper.
 
 ## Dataset Downloading
 - The dataset is under CC BY-NC-ND 4.0 license.
-- The dataset can be accessed thourgh [Google drive](https://drive.google.com/drive/folders/1ykd0iKoYSfy1Vf72h09guljsWqeWnCrs?usp=sharing)
-or [Baidu drive](https://pan.baidu.com/s/1650Q9GBrMc-nNOsak7H--Q?pwd=68hx)
+- The dataset can be accessed thourgh [Google Drive](https://drive.google.com/drive/folders/1ykd0iKoYSfy1Vf72h09guljsWqeWnCrs?usp=sharing)
+or [Baidu Drive](https://pan.baidu.com/s/1650Q9GBrMc-nNOsak7H--Q?pwd=68hx)
 - Please sign and send the agreement according to the instructions and then get the unzip password.
 - Download the full dataset and unzip the files.
 
@@ -62,4 +62,19 @@ python train_hsirgb_fusion.py
 Run the following command to train the baseline model:
 ```shell
 python train_rec.py
+```
+
+## Citation
+```text
+@ARTICLE{11314673,
+  author={Rao, Shijie and Huang, Yidong and Zhang, Xueqian and Fang, Hao and Liu, Ajian and Wan, Jun and Cui, Kaiyu and Li, Yali},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={HySpeFAS: A Hyperspectral Face Anti-Spoofing Dataset Based on Snapshot Compressive Imaging}, 
+  year={2026},
+  volume={21},
+  number={},
+  pages={669-680},
+  keywords={Hyperspectral imaging;Face recognition;Imaging;Three-dimensional printing;Metasurfaces;Faces;System-on-chip;Hardware;Cameras;Image coding;Snapshot hyperspectral imaging;face anti-spoofing;compressive imaging;deep neural network},
+  doi={10.1109/TIFS.2025.3648158}}
+
 ```
